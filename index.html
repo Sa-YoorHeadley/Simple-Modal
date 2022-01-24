@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="script.js"></script>
+    <title>Simple Modal</title>
+</head>
+<body>
+    <button class="open-modal" data-modal-target = "#modal">Open Modal</button>
+    
+    <main class="modal" id="modal">
+        <header class="modal-header">
+            <h2 class="modal-title">Example Modal</h2>
+            <button class="close-modal" data-close-button>&times;</button>
+        </header>
+        <section class="modal-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae recusandae a beatae rerum illo nulla, reprehenderit blanditiis quaerat vero dolor sed maiores ut sequi repellendus nihil similique facere? Explicabo, pariatur.</p>
+        </section>
+    </main>
+    <div id="overlay" class="overlay "></div>
+</body>
+</html>
